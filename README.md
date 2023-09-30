@@ -8,25 +8,17 @@
 
 </div>
 
-# :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project](#star2-about-the-project)
-- [Contact](#handshake-contact)
 
 
 ## :star2: About the Project
 
-### :dart: Features
+### :dart: Skills
 - C,C#,Python,Qt,Unity
 
 
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#7a96c7](https://via.placeholder.com/10/7a96c7?text=+) #7a96c7 |
-| Secondary Color | ![#78828f](https://via.placeholder.com/10/78828f?text=+) #78828f |
-| Accent Color | ![#e4f0b1](https://via.placeholder.com/10/e4f0b1?text=+) #e4f0b1 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+
 
 ## :handshake: Contact
 
