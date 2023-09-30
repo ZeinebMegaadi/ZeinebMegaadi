@@ -1,16 +1,34 @@
-<h1 align="center">Heyy, I'm Zeineb Megaadi</h1>
-<h3 align="center">A passionate engineering student from Tunisia.</h3>
+<div align='center'>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zeinebmegaadi" alt="zeinebmegaadi" /></a> </p>
+<img src=https://i.pinimg.com/originals/3d/5c/35/3d5c355266144277cfd4e0bb3df4b520.gif alt="logo" width= height= />
 
-- 🔭 I’m currently working on **an rpg 2d pixel game**
+<h1>aboutme</h1>
+<h4> <span> · </span> <a href="https://github.com/ZeinebMegaadi/ZeinebMegaadi/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/ZeinebMegaadi/ZeinebMegaadi/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/ZeinebMegaadi/ZeinebMegaadi/issues"> Request Feature </a> </h4>
 
-- 📫 How to reach me **zeineb.megaadi@medtech.tn**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.qt.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+# :notebook_with_decorative_cover: Table of Contents
+
+- [About the Project](#star2-about-the-project)
+- [Contact](#handshake-contact)
+
+
+## :star2: About the Project
+
+### :dart: Features
+- C,C#,Python,Qt,Unity
+
+
+### :art: Color Reference
+| Color | Hex |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color | ![#7a96c7](https://via.placeholder.com/10/7a96c7?text=+) #7a96c7 |
+| Secondary Color | ![#78828f](https://via.placeholder.com/10/78828f?text=+) #78828f |
+| Accent Color | ![#e4f0b1](https://via.placeholder.com/10/e4f0b1?text=+) #e4f0b1 |
+| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+
+## :handshake: Contact
+
+ZeinebMegaadi - - zeineb.megaadi@medtech.tn
 
