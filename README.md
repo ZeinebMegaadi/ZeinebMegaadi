@@ -19,7 +19,7 @@
 - ibis paint x / procreate ..
 
   
-  Well, For an engineer this is certainly not a very long list but I love learning new skills I'm open to anything that sparks my interest 
+  Well, For an engineer this is certainly not a very long list but I love learning new skills I'm open to anything that sparks my interest :pp 
 
 ---
 
