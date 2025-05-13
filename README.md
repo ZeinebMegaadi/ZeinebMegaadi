@@ -13,6 +13,8 @@
 - MySQL
 - Git / Linux
 - Tailwind CSS
+
+
 ✨**Design part**:
 - Blender 3d /Womp 3d
 - Godot 4
