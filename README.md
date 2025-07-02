@@ -21,9 +21,6 @@
 - RPG MAKER MV
 - ibis paint x / procreate ..
 
-  
-  Well, for an engineer this is certainly not a very long list but I love learning new skills I'm open to anything that sparks my interest :pp 
-
 ---
 
 Thanks for visiting my profile! 😊
