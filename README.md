@@ -6,8 +6,10 @@
 
 ## 🛠 Languages and Tools I Use:
 - HTML / CSS 
-- C 
-- Java / Python
+- C
+- Javascript
+- Java
+- Python
 - Git / Linux
 - Tailwind CSS
 - Godot 4
