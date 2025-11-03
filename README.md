@@ -6,7 +6,7 @@
 
 ## Cybersecurity TryHackMe bagde:
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2497400" style='border:none;'></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/ZeinebMegaadi.png" alt="Your Image Badge" />
 
 ## 🛠 Languages and Tools I Use:
 - HTML / CSS 
