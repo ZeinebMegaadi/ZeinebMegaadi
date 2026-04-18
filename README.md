@@ -1,7 +1,21 @@
 <h1 align="center">🌸 Helloo 😺, I'm Zeineb Megaadi welcome to my profile :)) 🌸</h1>
-
-
-
+<table>
+  <tr>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+  </tr>
+</table>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffb6c1,dda0dd,ffc0cb&height=140&section=header&text=&fontSize=0" />
 </p>
@@ -39,7 +53,7 @@
   <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,java,python,javascript,c,git,linux,godot" />
 </p>
 
-<img align="right" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" width="500" alt="Coding animation">
+<img align="right" src="https://i.pinimg.com/originals/1b/3b/88/1b3b889d8e0de7767aada2724ff99e74.gif" width="500" alt="Coding animation">
 
 ---
 
@@ -50,10 +64,6 @@
 - Aseprite and Piskel.
 
 ---
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffb6c1,dda0dd,ffc0cb&height=140&section=header&text=&fontSize=0" />
-</p>
 
 ---
 
