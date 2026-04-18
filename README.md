@@ -9,12 +9,12 @@ Helloo 😺, I'm Zeineb Megaadi welcome to my profile :))
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&bg_color=0f172a&title_color=22c55e&icon_color=4ade80&text_color=cbd5e1&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeinebMegaadi&background=0f172a&ring=22c55e&fire=4ade80&currStreakLabel=22c55e&sideLabels=22c55e&dates=cbd5e1&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&bg_color=1a1026&title_color=ff9ecb&icon_color=f8a5c2&text_color=e9d5ff&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeinebMegaadi&background=1a1026&ring=ff9ecb&fire=f8a5c2&currStreakLabel=ff9ecb&sideLabels=ff9ecb&dates=e9d5ff&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeinebMegaadi&bg_color=0f172a&color=22c55e&line=4ade80&point=86efac&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeinebMegaadi&bg_color=1a1026&color=ff9ecb&line=f8a5c2&point=fbcfe8&area=true&hide_border=true" />
 </p>
 
 ---
