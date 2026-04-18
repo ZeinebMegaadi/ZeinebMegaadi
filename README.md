@@ -1,4 +1,10 @@
-Helloo 😺, I'm Zeineb Megaadi welcome to my profile :))
+<h1 align="center">🌸 Helloo 😺, I'm Zeineb Megaadi welcome to my profile :)) 🌸</h1>
+
+
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffb6c1,dda0dd,ffc0cb&height=140&section=header&text=&fontSize=0" />
+</p>
 
 ---
 
@@ -21,17 +27,21 @@ Helloo 😺, I'm Zeineb Megaadi welcome to my profile :))
 
 ## Cybersecurity TryHackMe bagde:
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/ZeinebMegaadi.png" alt="Your Image Badge" />
+<p align="center">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/ZeinebMegaadi.png" alt="Your Image Badge" />
+</p>
 
 ---
 
 ## 🛠 Languages and Tools I Use:
 
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,java,python,javascript,c,git,linux,godot" />
 </p>
 
-<img align="right" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" width="550" alt="Coding animation">
+<img align="right" src="https://cdn.dribbble.com/users/1277312/screenshots/14733298/media/39b1045e593737587dd60e42c8422d1f.gif" width="500" alt="Coding animation">
+
+---
 
 ✨**Design part**:
 - Blender 3d /Womp 3d
@@ -41,11 +51,18 @@ Helloo 😺, I'm Zeineb Megaadi welcome to my profile :))
 
 ---
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffb6c1,dda0dd,ffc0cb&height=140&section=header&text=&fontSize=0" />
+</p>
+
+---
+
 Thanks for visiting my profile! 😊
 
 ---
 
 [ZeinebMegaadi](https://github.com/ZeinebMegaadi/ZeinebMegaadi)
 
+Last Edited on: 13/05/2025
 
 Last Edited on: 04/18/2026
