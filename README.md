@@ -12,8 +12,7 @@
     <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
     <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
     <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
+   
   </tr>
 </table>
 <p align="center">
@@ -30,7 +29,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&bg_color=1a1026&title_color=ff9ecb&icon_color=f8a5c2&text_color=e9d5ff&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZeinebMegaadi&background=1a1026&ring=ff9ecb&fire=f8a5c2&currStreakLabel=ff9ecb&sideLabels=ff9ecb&dates=e9d5ff&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=octocat&theme=tokyonight" />
 </p>
 
 <p align="center">
