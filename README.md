@@ -1,4 +1,4 @@
-Helloo 😺, I'm Zeineb Megaadi welcome to my profile :))
+Helloo 😺, I'm Zeineb Megaadi, a software engineering student, welcome to my profile :))
 
 ---
 
