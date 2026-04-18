@@ -29,7 +29,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&bg_color=1a1026&title_color=ff9ecb&icon_color=f8a5c2&text_color=e9d5ff&hide_border=true" />
-  <img src="https://streak-stats.demolab.com?user=octocat&theme=tokyonight" />
+ <img src="https://streak-stats.demolab.com?user=ZeinebMegaadi&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
