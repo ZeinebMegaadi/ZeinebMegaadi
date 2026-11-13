@@ -1,117 +1,223 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Security arsenal: Splunk, Wazuh, ELK, Wireshark, Sysmon, YARA, MITRE ATT&amp;CK, Kali Linux, Nmap, Burp Suite, Metasploit, Bash, NIST CSF 2.0, prompt injection">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Security toolkit: Splunk, Wazuh, ELK, Wireshark, Sysmon, YARA, MITRE ATT&amp;CK, Kali Linux, Nmap, Burp Suite, Metasploit, Bash, NIST CSF 2.0, prompt injection">
 <defs>
-  <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#ff4fd8"/><stop offset=".35" stop-color="#a66bff"/><stop offset=".7" stop-color="#38f2ff"/><stop offset="1" stop-color="#ff4fd8"/>
-    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="6s" repeatCount="indefinite"/>
+  <radialGradient id="bubble" cx=".5" cy=".5" r=".5">
+    <stop offset=".55" stop-color="#ffffff" stop-opacity=".04"/>
+    <stop offset=".85" stop-color="#d6f6ff" stop-opacity=".35"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity=".8"/>
+  </radialGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
   </linearGradient>
-  <radialGradient id="bgGlow" cx=".5" cy=".4" r=".6"><stop offset="0" stop-color="#a66bff" stop-opacity=".16"/><stop offset="1" stop-color="#a66bff" stop-opacity="0"/></radialGradient>
-  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="7"/></filter>
+  <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/>
+  </linearGradient>
   <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8"/></filter>
+  <filter id="drop" x="-10%" y="-10%" width="120%" height="130%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#04406f" flood-opacity=".28"/>
+  </filter>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3aaef4"/><stop offset=".55" stop-color="#a8e4ff"/><stop offset="1" stop-color="#eafbff"/>
+  </linearGradient>
+  <linearGradient id="pill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset=".51" stop-color="#e3f5ff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".85"/></linearGradient>
+  <radialGradient id="orb-blue" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#bdf0ff"/><stop offset=".45" stop-color="#1fa2ff"/><stop offset="1" stop-color="#0757b5"/></radialGradient>
+  <radialGradient id="rim-blue" cx=".5" cy=".9" r=".5"><stop offset="0" stop-color="#bdf0ff" stop-opacity=".85"/><stop offset="1" stop-color="#bdf0ff" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orb-orange" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#ffe2b0"/><stop offset=".45" stop-color="#ff9a1f"/><stop offset="1" stop-color="#c25400"/></radialGradient>
+  <radialGradient id="rim-orange" cx=".5" cy=".9" r=".5"><stop offset="0" stop-color="#ffe2b0" stop-opacity=".85"/><stop offset="1" stop-color="#ffe2b0" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orb-green" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#d9ffb8"/><stop offset=".45" stop-color="#4cc94a"/><stop offset="1" stop-color="#16792b"/></radialGradient>
+  <radialGradient id="rim-green" cx=".5" cy=".9" r=".5"><stop offset="0" stop-color="#d9ffb8" stop-opacity=".85"/><stop offset="1" stop-color="#d9ffb8" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect x="10" y="10" width="940" height="280" rx="22"/></clipPath>
 </defs>
-<rect x="10" y="10" width="940" height="280" rx="22" fill="none" stroke="url(#holo)" stroke-width="5" filter="url(#soft)"/>
-<rect x="10" y="10" width="940" height="280" rx="22" fill="#0a0614"/>
-<rect x="10" y="10" width="940" height="280" rx="22" fill="url(#bgGlow)"/>
-<rect x="10" y="10" width="940" height="280" rx="22" fill="none" stroke="url(#holo)" stroke-width="2"/>
-
+<rect x="10" y="14" width="940" height="280" rx="22" fill="#0a63cf" opacity=".4" filter="url(#soft)"/>
+<g clip-path="url(#card)">
+  <rect width="960" height="300" fill="url(#sky)"/>
+  
+  <g fill="none" stroke="#fff" stroke-linecap="round">
+    <path d="M-60 120 C 192 90, 384 160, 576 120 S 1000 80, 1040 125" stroke-width="26" stroke-opacity=".12"><animateTransform attributeName="transform" type="translate" values="0 0;-40 6;0 0" dur="14s" repeatCount="indefinite"/></path>
+    <path d="M-60 134 C 192 90, 384 170, 576 134 S 1000 98, 1040 130" stroke-width="3" stroke-opacity=".55"><animateTransform attributeName="transform" type="translate" values="0 0;30 -5;0 0" dur="11s" repeatCount="indefinite"/></path>
+    <path d="M-60 148 C 192 108, 384 192, 576 148 S 1000 104, 1040 150" stroke-width="1.5" stroke-opacity=".45"><animateTransform attributeName="transform" type="translate" values="0 0;-25 4;0 0" dur="9s" repeatCount="indefinite"/></path>
+    <path d="M-60 164 C 192 120, 384 196, 576 164 S 1000 132, 1040 158" stroke-width="10" stroke-opacity=".1"><animateTransform attributeName="transform" type="translate" values="0 0;35 -6;0 0" dur="16s" repeatCount="indefinite"/></path>
+  </g>
+  <g opacity=".9"><circle cx="745.2" cy="315.4" r="15.4" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="739.8" cy="308.5" rx="5.9" ry="3.4" fill="#fff" fill-opacity=".85" transform="rotate(-30 739.8 308.5)"/><animateTransform attributeName="transform" type="translate" values="0 0;-16.9 -145;0 -320.8" dur="8s" begin="-6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="8s" begin="-6.6s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="396.1" cy="306" r="6" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="394" cy="303.3" rx="2.3" ry="1.3" fill="#fff" fill-opacity=".85" transform="rotate(-30 394 303.3)"/><animateTransform attributeName="transform" type="translate" values="0 0;-11.2 -145;0 -302" dur="7.7s" begin="-7.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="7.7s" begin="-7.7s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="599.1" cy="305.9" r="5.9" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="597" cy="303.2" rx="2.2" ry="1.3" fill="#fff" fill-opacity=".85" transform="rotate(-30 597 303.2)"/><animateTransform attributeName="transform" type="translate" values="0 0;-14.5 -145;0 -301.8" dur="11.1s" begin="-6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="11.1s" begin="-6.6s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="859.7" cy="315.5" r="15.5" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="854.3" cy="308.5" rx="5.9" ry="3.4" fill="#fff" fill-opacity=".85" transform="rotate(-30 854.3 308.5)"/><animateTransform attributeName="transform" type="translate" values="0 0;16.3 -145;0 -321" dur="15s" begin="-13.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="15s" begin="-13.3s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="715" cy="307.6" r="7.6" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="712.3" cy="304.2" rx="2.9" ry="1.7" fill="#fff" fill-opacity=".85" transform="rotate(-30 712.3 304.2)"/><animateTransform attributeName="transform" type="translate" values="0 0;-17 -145;0 -305.2" dur="7.1s" begin="-1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="7.1s" begin="-1.8s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="31.4" cy="312" r="12" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="27.2" cy="306.6" rx="4.6" ry="2.6" fill="#fff" fill-opacity=".85" transform="rotate(-30 27.2 306.6)"/><animateTransform attributeName="transform" type="translate" values="0 0;-0.4 -145;0 -314" dur="9.1s" begin="-6.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="9.1s" begin="-6.7s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="648.8" cy="307.1" r="7.1" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="646.3" cy="303.9" rx="2.7" ry="1.6" fill="#fff" fill-opacity=".85" transform="rotate(-30 646.3 303.9)"/><animateTransform attributeName="transform" type="translate" values="0 0;-5 -145;0 -304.2" dur="14.9s" begin="-3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="14.9s" begin="-3.5s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="834.8" cy="305.5" r="5.5" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="832.9" cy="303" rx="2.1" ry="1.2" fill="#fff" fill-opacity=".85" transform="rotate(-30 832.9 303)"/><animateTransform attributeName="transform" type="translate" values="0 0;16.5 -145;0 -301" dur="11.4s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="11.4s" begin="0s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="603.2" cy="316" r="16" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="597.6" cy="308.8" rx="6.1" ry="3.5" fill="#fff" fill-opacity=".85" transform="rotate(-30 597.6 308.8)"/><animateTransform attributeName="transform" type="translate" values="0 0;-12.5 -145;0 -322" dur="7.2s" begin="-6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="7.2s" begin="-6.5s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="901.9" cy="311.3" r="11.3" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="897.9" cy="306.2" rx="4.3" ry="2.5" fill="#fff" fill-opacity=".85" transform="rotate(-30 897.9 306.2)"/><animateTransform attributeName="transform" type="translate" values="0 0;-11.1 -145;0 -312.6" dur="13.1s" begin="-3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="13.1s" begin="-3.5s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="218" cy="311.3" r="11.3" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="214" cy="306.2" rx="4.3" ry="2.5" fill="#fff" fill-opacity=".85" transform="rotate(-30 214 306.2)"/><animateTransform attributeName="transform" type="translate" values="0 0;8 -145;0 -312.6" dur="7.5s" begin="-5.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="7.5s" begin="-5.8s" repeatCount="indefinite"/></g><g opacity=".9"><circle cx="672.7" cy="310.5" r="10.5" fill="url(#bubble)" stroke="#fff" stroke-opacity=".75" stroke-width="1"/><ellipse cx="669" cy="305.8" rx="4" ry="2.3" fill="#fff" fill-opacity=".85" transform="rotate(-30 669 305.8)"/><animateTransform attributeName="transform" type="translate" values="0 0;16.8 -145;0 -311" dur="7.3s" begin="-0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.95;.95;0" keyTimes="0;.1;.85;1" dur="7.3s" begin="-0.8s" repeatCount="indefinite"/></g>
+  
 <g>
-  <polygon points="187.3,43.0 229.7,67.5 229.7,116.5 187.3,141.0 144.8,116.5 144.8,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="187.3,43.0 229.7,67.5 229.7,116.5 187.3,141.0 144.8,116.5 144.8,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.00s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="187.3" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SPLUNK</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+  <ellipse cx="187.3" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="187.3" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="187.3" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="187.3" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="187.3" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <text x="187.3" y="88.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SPLUNK</text>
 </g>
 <g>
-  <polygon points="277.4,43.0 319.8,67.5 319.8,116.5 277.4,141.0 234.9,116.5 234.9,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="277.4,43.0 319.8,67.5 319.8,116.5 277.4,141.0 234.9,116.5 234.9,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.30s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="277.4" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">WAZUH</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-0.4s" repeatCount="indefinite"/>
+  <ellipse cx="277.4" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="277.4" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="277.4" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="277.4" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="277.4" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="0.3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="277.4" y="88.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">WAZUH</text>
 </g>
 <g>
-  <polygon points="367.4,43.0 409.9,67.5 409.9,116.5 367.4,141.0 325.0,116.5 325.0,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="367.4,43.0 409.9,67.5 409.9,116.5 367.4,141.0 325.0,116.5 325.0,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.60s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="367.4" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">ELK</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-0.9s" repeatCount="indefinite"/>
+  <ellipse cx="367.4" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="367.4" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="367.4" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="367.4" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="367.4" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="367.4" y="88.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ELK</text>
 </g>
 <g>
-  <polygon points="457.5,43.0 499.9,67.5 499.9,116.5 457.5,141.0 415.0,116.5 415.0,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="457.5,43.0 499.9,67.5 499.9,116.5 457.5,141.0 415.0,116.5 415.0,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.90s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="457.5" y="89.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">WIRE</text><text x="457.5" y="103.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SHARK</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-1.3s" repeatCount="indefinite"/>
+  <ellipse cx="457.5" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="457.5" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="457.5" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="457.5" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="457.5" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="457.5" y="82" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">WIRE</text><text x="457.5" y="95" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SHARK</text>
 </g>
 <g>
-  <polygon points="547.5,43.0 590.0,67.5 590.0,116.5 547.5,141.0 505.1,116.5 505.1,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="547.5,43.0 590.0,67.5 590.0,116.5 547.5,141.0 505.1,116.5 505.1,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.20s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="547.5" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SYSMON</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/>
+  <ellipse cx="547.6" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="547.6" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="547.6" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="547.6" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="547.6" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="1.1s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="547.6" y="88.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SYSMON</text>
 </g>
 <g>
-  <polygon points="637.6,43.0 680.1,67.5 680.1,116.5 637.6,141.0 595.2,116.5 595.2,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="637.6,43.0 680.1,67.5 680.1,116.5 637.6,141.0 595.2,116.5 595.2,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.50s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="637.6" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">YARA</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-2.2s" repeatCount="indefinite"/>
+  <ellipse cx="637.7" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="637.7" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="637.7" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="637.7" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="637.7" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="637.7" y="88.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">YARA</text>
 </g>
 <g>
-  <polygon points="727.7,43.0 770.1,67.5 770.1,116.5 727.7,141.0 685.2,116.5 685.2,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="727.7,43.0 770.1,67.5 770.1,116.5 727.7,141.0 685.2,116.5 685.2,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.80s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="727.7" y="89.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">MITRE</text><text x="727.7" y="103.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">ATT&amp;CK</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-2.7s" repeatCount="indefinite"/>
+  <ellipse cx="727.7" cy="130" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="727.7" cy="84" r="38" fill="url(#orb-blue)" stroke="#fff" stroke-width="2"/>
+  <circle cx="727.7" cy="84" r="38" fill="url(#rim-blue)"/>
+  <ellipse cx="727.7" cy="65" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="727.7" cy="84" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="1.7s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="727.7" y="82" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">MITRE</text><text x="727.7" y="95" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#0757b5" stroke-width="3" paint-order="stroke" stroke-linejoin="round">ATT&amp;CK</text>
 </g>
 <g>
-  <polygon points="232.3,121.0 274.8,145.5 274.8,194.5 232.3,219.0 189.9,194.5 189.9,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="232.3,121.0 274.8,145.5 274.8,194.5 232.3,219.0 189.9,194.5 189.9,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.10s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="232.3" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">KALI</text><text x="232.3" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">LINUX</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-3.1s" repeatCount="indefinite"/>
+  <ellipse cx="232.3" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="232.3" cy="166" r="38" fill="url(#orb-green)" stroke="#fff" stroke-width="2"/>
+  <circle cx="232.3" cy="166" r="38" fill="url(#rim-green)"/>
+  <ellipse cx="232.3" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="232.3" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="232.3" y="164" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">KALI</text><text x="232.3" y="177" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">LINUX</text>
 </g>
 <g>
-  <polygon points="322.4,121.0 364.8,145.5 364.8,194.5 322.4,219.0 279.9,194.5 279.9,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="322.4,121.0 364.8,145.5 364.8,194.5 322.4,219.0 279.9,194.5 279.9,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.40s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="322.4" y="174.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">NMAP</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="0s" repeatCount="indefinite"/>
+  <ellipse cx="322.4" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="322.4" cy="166" r="38" fill="url(#orb-orange)" stroke="#fff" stroke-width="2"/>
+  <circle cx="322.4" cy="166" r="38" fill="url(#rim-orange)"/>
+  <ellipse cx="322.4" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="322.4" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="322.4" y="170.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#a84800" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NMAP</text>
 </g>
 <g>
-  <polygon points="412.5,121.0 454.9,145.5 454.9,194.5 412.5,219.0 370.0,194.5 370.0,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="412.5,121.0 454.9,145.5 454.9,194.5 412.5,219.0 370.0,194.5 370.0,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.70s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="412.5" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">BURP</text><text x="412.5" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SUITE</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-0.4s" repeatCount="indefinite"/>
+  <ellipse cx="412.4" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="412.4" cy="166" r="38" fill="url(#orb-orange)" stroke="#fff" stroke-width="2"/>
+  <circle cx="412.4" cy="166" r="38" fill="url(#rim-orange)"/>
+  <ellipse cx="412.4" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="412.4" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="412.4" y="164" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#a84800" stroke-width="3" paint-order="stroke" stroke-linejoin="round">BURP</text><text x="412.4" y="177" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#a84800" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SUITE</text>
 </g>
 <g>
-  <polygon points="502.5,121.0 545.0,145.5 545.0,194.5 502.5,219.0 460.1,194.5 460.1,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="502.5,121.0 545.0,145.5 545.0,194.5 502.5,219.0 460.1,194.5 460.1,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.00s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="502.5" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">META</text><text x="502.5" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SPLOIT</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-0.9s" repeatCount="indefinite"/>
+  <ellipse cx="502.5" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="502.5" cy="166" r="38" fill="url(#orb-orange)" stroke="#fff" stroke-width="2"/>
+  <circle cx="502.5" cy="166" r="38" fill="url(#rim-orange)"/>
+  <ellipse cx="502.5" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="502.5" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="502.5" y="164" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#a84800" stroke-width="3" paint-order="stroke" stroke-linejoin="round">META</text><text x="502.5" y="177" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#a84800" stroke-width="3" paint-order="stroke" stroke-linejoin="round">SPLOIT</text>
 </g>
 <g>
-  <polygon points="592.6,121.0 635.0,145.5 635.0,194.5 592.6,219.0 550.1,194.5 550.1,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="592.6,121.0 635.0,145.5 635.0,194.5 592.6,219.0 550.1,194.5 550.1,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.30s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="592.6" y="174.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">BASH</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-1.3s" repeatCount="indefinite"/>
+  <ellipse cx="592.6" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="592.6" cy="166" r="38" fill="url(#orb-green)" stroke="#fff" stroke-width="2"/>
+  <circle cx="592.6" cy="166" r="38" fill="url(#rim-green)"/>
+  <ellipse cx="592.6" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="592.6" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="3.1s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="592.6" y="170.5" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">BASH</text>
 </g>
 <g>
-  <polygon points="682.6,121.0 725.1,145.5 725.1,194.5 682.6,219.0 640.2,194.5 640.2,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="682.6,121.0 725.1,145.5 725.1,194.5 682.6,219.0 640.2,194.5 640.2,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.60s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="682.6" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">NIST</text><text x="682.6" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">CSF 2.0</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-1.8s" repeatCount="indefinite"/>
+  <ellipse cx="682.7" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="682.7" cy="166" r="38" fill="url(#orb-green)" stroke="#fff" stroke-width="2"/>
+  <circle cx="682.7" cy="166" r="38" fill="url(#rim-green)"/>
+  <ellipse cx="682.7" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="682.7" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="682.7" y="164" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">NIST</text><text x="682.7" y="177" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="11.5" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">CSF 2.0</text>
 </g>
 <g>
-  <polygon points="772.7,121.0 815.2,145.5 815.2,194.5 772.7,219.0 730.3,194.5 730.3,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
-  <polygon points="772.7,121.0 815.2,145.5 815.2,194.5 772.7,219.0 730.3,194.5 730.3,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
-    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.90s" repeatCount="indefinite"/>
-  </polygon>
-  <text x="772.7" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">PROMPT</text><text x="772.7" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">INJECTION</text>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.6s" begin="-2.3s" repeatCount="indefinite"/>
+  <ellipse cx="772.7" cy="212" rx="24" ry="4" fill="#04406f" opacity=".18"/>
+  <circle cx="772.7" cy="166" r="38" fill="url(#orb-green)" stroke="#fff" stroke-width="2"/>
+  <circle cx="772.7" cy="166" r="38" fill="url(#rim-green)"/>
+  <ellipse cx="772.7" cy="147" rx="25.8" ry="14.4" fill="url(#gloss)" opacity=".9"/>
+  <circle cx="772.7" cy="166" r="41" fill="none" stroke="#fff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.08;.3;1" dur="4.2s" begin="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="38;46;46" keyTimes="0;.3;1" dur="4.2s" begin="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="772.7" y="164" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">PROMPT</text><text x="772.7" y="177" text-anchor="middle" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="10" font-weight="800" letter-spacing=".5" fill="#fff" stroke="#136b26" stroke-width="3" paint-order="stroke" stroke-linejoin="round">INJECTION</text>
 </g>
-<circle cx="230.0" cy="254.0" r="5" fill="#38f2ff" filter="url(#glow)"/><text x="244.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">BLUE TEAM</text><circle cx="410.0" cy="254.0" r="5" fill="#ff4fd8" filter="url(#glow)"/><text x="424.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">OFFENSIVE</text><circle cx="590.0" cy="254.0" r="5" fill="#a66bff" filter="url(#glow)"/><text x="604.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">LINUX · GRC · AI</text>
+  <g filter="url(#drop)">
+    <rect x="200" y="238" width="560" height="36" rx="18" fill="url(#pill)" stroke="#fff" stroke-width="1.5"/>
+  </g>
+  <circle cx="236" cy="256" r="8" fill="url(#orb-blue)" stroke="#fff" stroke-width="1.5"/><ellipse cx="235" cy="252.5" rx="4.5" ry="2.5" fill="#fff" fill-opacity=".85"/><text x="252" y="260.5" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0d3b66">BLUE TEAM</text><circle cx="410" cy="256" r="8" fill="url(#orb-orange)" stroke="#fff" stroke-width="1.5"/><ellipse cx="409" cy="252.5" rx="4.5" ry="2.5" fill="#fff" fill-opacity=".85"/><text x="426" y="260.5" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0d3b66">OFFENSIVE</text><circle cx="574" cy="256" r="8" fill="url(#orb-green)" stroke="#fff" stroke-width="1.5"/><ellipse cx="573" cy="252.5" rx="4.5" ry="2.5" fill="#fff" fill-opacity=".85"/><text x="590" y="260.5" font-family="'Segoe UI','Frutiger','Myriad Pro','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#0d3b66">LINUX · GRC · AI</text>
+  <rect x="-300" y="-60" width="160" height="420" fill="url(#shine)" transform="skewX(-20)">
+    <animate attributeName="x" values="-300;-300;1250" keyTimes="0;.6;1" dur="7s" repeatCount="indefinite"/></rect>
+  <rect x="10" y="10" width="940" height="100" rx="22" fill="url(#gloss)" opacity=".14"/>
+</g>
+<rect x="10" y="10" width="940" height="280" rx="22" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="2"/>
+<rect x="13" y="13" width="934" height="274" rx="20" fill="none" stroke="#0a63cf" stroke-opacity=".25" stroke-width="1"/>
 </svg>
