@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Zeineb Megaadi" />
+  <img src="./assets/terminal.svg" width="100%" alt="Zeineb Megaadi" />
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 <br/>
 
 <p align="center">
-  <img src="./assets/arsenal.svg" width="100%" alt="Security toolkit" />
+  <img src="./assets/toolkit.svg" width="100%" alt="Security toolkit" />
 </p>
 
 <p align="center">
