@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Security arsenal: Splunk, Wazuh, ELK, Wireshark, Sysmon, YARA, MITRE ATT&amp;CK, Kali Linux, Nmap, Burp Suite, Metasploit, Bash, NIST CSF 2.0, prompt injection">
+<defs>
+  <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff4fd8"/><stop offset=".35" stop-color="#a66bff"/><stop offset=".7" stop-color="#38f2ff"/><stop offset="1" stop-color="#ff4fd8"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx=".5" cy=".4" r=".6"><stop offset="0" stop-color="#a66bff" stop-opacity=".16"/><stop offset="1" stop-color="#a66bff" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="7"/></filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="10" y="10" width="940" height="280" rx="22" fill="none" stroke="url(#holo)" stroke-width="5" filter="url(#soft)"/>
+<rect x="10" y="10" width="940" height="280" rx="22" fill="#0a0614"/>
+<rect x="10" y="10" width="940" height="280" rx="22" fill="url(#bgGlow)"/>
+<rect x="10" y="10" width="940" height="280" rx="22" fill="none" stroke="url(#holo)" stroke-width="2"/>
+
+<g>
+  <polygon points="187.3,43.0 229.7,67.5 229.7,116.5 187.3,141.0 144.8,116.5 144.8,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="187.3,43.0 229.7,67.5 229.7,116.5 187.3,141.0 144.8,116.5 144.8,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.00s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="187.3" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SPLUNK</text>
+</g>
+<g>
+  <polygon points="277.4,43.0 319.8,67.5 319.8,116.5 277.4,141.0 234.9,116.5 234.9,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="277.4,43.0 319.8,67.5 319.8,116.5 277.4,141.0 234.9,116.5 234.9,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.30s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="277.4" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">WAZUH</text>
+</g>
+<g>
+  <polygon points="367.4,43.0 409.9,67.5 409.9,116.5 367.4,141.0 325.0,116.5 325.0,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="367.4,43.0 409.9,67.5 409.9,116.5 367.4,141.0 325.0,116.5 325.0,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.60s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="367.4" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">ELK</text>
+</g>
+<g>
+  <polygon points="457.5,43.0 499.9,67.5 499.9,116.5 457.5,141.0 415.0,116.5 415.0,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="457.5,43.0 499.9,67.5 499.9,116.5 457.5,141.0 415.0,116.5 415.0,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="0.90s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="457.5" y="89.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">WIRE</text><text x="457.5" y="103.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SHARK</text>
+</g>
+<g>
+  <polygon points="547.5,43.0 590.0,67.5 590.0,116.5 547.5,141.0 505.1,116.5 505.1,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="547.5,43.0 590.0,67.5 590.0,116.5 547.5,141.0 505.1,116.5 505.1,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.20s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="547.5" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SYSMON</text>
+</g>
+<g>
+  <polygon points="637.6,43.0 680.1,67.5 680.1,116.5 637.6,141.0 595.2,116.5 595.2,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="637.6,43.0 680.1,67.5 680.1,116.5 637.6,141.0 595.2,116.5 595.2,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.50s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="637.6" y="96.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">YARA</text>
+</g>
+<g>
+  <polygon points="727.7,43.0 770.1,67.5 770.1,116.5 727.7,141.0 685.2,116.5 685.2,67.5" fill="#38f2ff" fill-opacity=".06" stroke="#38f2ff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="727.7,43.0 770.1,67.5 770.1,116.5 727.7,141.0 685.2,116.5 685.2,67.5" fill="#38f2ff" fill-opacity=".22" stroke="#38f2ff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="1.80s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="727.7" y="89.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">MITRE</text><text x="727.7" y="103.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">ATT&amp;CK</text>
+</g>
+<g>
+  <polygon points="232.3,121.0 274.8,145.5 274.8,194.5 232.3,219.0 189.9,194.5 189.9,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="232.3,121.0 274.8,145.5 274.8,194.5 232.3,219.0 189.9,194.5 189.9,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.10s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="232.3" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">KALI</text><text x="232.3" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">LINUX</text>
+</g>
+<g>
+  <polygon points="322.4,121.0 364.8,145.5 364.8,194.5 322.4,219.0 279.9,194.5 279.9,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="322.4,121.0 364.8,145.5 364.8,194.5 322.4,219.0 279.9,194.5 279.9,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.40s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="322.4" y="174.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">NMAP</text>
+</g>
+<g>
+  <polygon points="412.5,121.0 454.9,145.5 454.9,194.5 412.5,219.0 370.0,194.5 370.0,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="412.5,121.0 454.9,145.5 454.9,194.5 412.5,219.0 370.0,194.5 370.0,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="2.70s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="412.5" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">BURP</text><text x="412.5" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SUITE</text>
+</g>
+<g>
+  <polygon points="502.5,121.0 545.0,145.5 545.0,194.5 502.5,219.0 460.1,194.5 460.1,145.5" fill="#ff4fd8" fill-opacity=".06" stroke="#ff4fd8" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="502.5,121.0 545.0,145.5 545.0,194.5 502.5,219.0 460.1,194.5 460.1,145.5" fill="#ff4fd8" fill-opacity=".22" stroke="#ff4fd8" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.00s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="502.5" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">META</text><text x="502.5" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">SPLOIT</text>
+</g>
+<g>
+  <polygon points="592.6,121.0 635.0,145.5 635.0,194.5 592.6,219.0 550.1,194.5 550.1,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="592.6,121.0 635.0,145.5 635.0,194.5 592.6,219.0 550.1,194.5 550.1,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.30s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="592.6" y="174.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">BASH</text>
+</g>
+<g>
+  <polygon points="682.6,121.0 725.1,145.5 725.1,194.5 682.6,219.0 640.2,194.5 640.2,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="682.6,121.0 725.1,145.5 725.1,194.5 682.6,219.0 640.2,194.5 640.2,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.60s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="682.6" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">NIST</text><text x="682.6" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="11.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">CSF 2.0</text>
+</g>
+<g>
+  <polygon points="772.7,121.0 815.2,145.5 815.2,194.5 772.7,219.0 730.3,194.5 730.3,145.5" fill="#a66bff" fill-opacity=".06" stroke="#a66bff" stroke-opacity=".35" stroke-width="1.5"/>
+  <polygon points="772.7,121.0 815.2,145.5 815.2,194.5 772.7,219.0 730.3,194.5 730.3,145.5" fill="#a66bff" fill-opacity=".22" stroke="#a66bff" stroke-width="2.5" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;.1;.35;1" dur="4.2s" begin="3.90s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="772.7" y="167.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">PROMPT</text><text x="772.7" y="181.0" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="1" fill="#f3e8ff">INJECTION</text>
+</g>
+<circle cx="230.0" cy="254.0" r="5" fill="#38f2ff" filter="url(#glow)"/><text x="244.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">BLUE TEAM</text><circle cx="410.0" cy="254.0" r="5" fill="#ff4fd8" filter="url(#glow)"/><text x="424.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">OFFENSIVE</text><circle cx="590.0" cy="254.0" r="5" fill="#a66bff" filter="url(#glow)"/><text x="604.0" y="258.0" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace" font-size="12" letter-spacing="3" fill="#8f7fb0">LINUX · GRC · AI</text>
+</svg>
