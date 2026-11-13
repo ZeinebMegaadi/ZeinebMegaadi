@@ -1,76 +1,32 @@
-
-<h1 align="center">🌸 Helloo 😺, I'm Zeineb Megaadi welcome to my profile :)) 🌸</h1>
-<table>
-  <tr>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-    <td><img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="50"></td>
-   
-  </tr>
-</table>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffb6c1,dda0dd,ffc0cb&height=140&section=header&text=&fontSize=0" />
-</p>
-
----
-
-⛳ I’m currently learning ***Cybersecurity, game development and design***.
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&bg_color=1a1026&title_color=ff9ecb&icon_color=f8a5c2&text_color=e9d5ff&hide_border=true" />
- <img src="https://streak-stats.demolab.com?user=ZeinebMegaadi&theme=tokyonight&hide_border=true" />
+  <img src="./assets/hero.svg" width="100%" alt="Zeineb Megaadi — SOC analyst in training" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ZeinebMegaadi&bg_color=1a1026&color=ff9ecb&line=f8a5c2&point=fbcfe8&area=true&hide_border=true" />
+  <a href="https://tryhackme.com/p/ZeinebMegaadi"><img src="https://img.shields.io/badge/TryHackMe-SOC_Level_1-0a0614?style=for-the-badge&logo=tryhackme&logoColor=ff4fd8&labelColor=0a0614" alt="TryHackMe" /></a>
+  <img src="https://img.shields.io/badge/Open_to-SOC_internships_'27-0a0614?style=for-the-badge&labelColor=0a0614&color=a66bff" alt="Open to SOC internships" />
+  <img src="https://komarev.com/ghpvc/?username=ZeinebMegaadi&label=VISITORS&color=38f2ff&style=for-the-badge" alt="visitors" />
 </p>
 
----
-
-## Cybersecurity TryHackMe bagde:
+<br/>
 
 <p align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/ZeinebMegaadi.png" alt="Your Image Badge" />
+  <img src="./assets/arsenal.svg" width="100%" alt="Security arsenal" />
 </p>
-
----
-
-## 🛠 Languages and Tools I Use:
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,react,nodejs,java,python,javascript,c,git,linux,godot" />
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,react,nodejs,bash,linux,git,godot&theme=dark" alt="dev stack" />
 </p>
 
-<img align="right" src="https://i.pinimg.com/originals/1b/3b/88/1b3b889d8e0de7767aada2724ff99e74.gif" width="500" alt="Coding animation">
+<br/>
 
----
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ZeinebMegaadi&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0a0614&title_color=ff4fd8&icon_color=38f2ff&text_color=f3e8ff&ring_color=ff4fd8&border_radius=16" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=ZeinebMegaadi&hide_border=true&border_radius=16&background=0A0614&stroke=2A1A40&ring=FF4FD8&fire=38F2FF&currStreakNum=F3E8FF&sideNums=F3E8FF&currStreakLabel=FF4FD8&sideLabels=A66BFF&dates=8F7FB0" alt="GitHub streak" />
+</p>
 
-✨**Design part**:
-- Blender 3d /Womp 3d
-- RPG MAKER MV
-- ibis paint x / procreate / Clip Studio paint
-- Aseprite and Piskel.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ZeinebMegaadi/ZeinebMegaadi/output/github-snake-neon.svg" width="100%" alt="snake eating my contribution graph" />
+</p>
 
----
-
----
-
-Thanks for visiting my profile! 😊
-
----
-
-[ZeinebMegaadi](https://github.com/ZeinebMegaadi/ZeinebMegaadi)
-
-Last Edited on: 04/18/2026
+<p align="center"><sub>◢◤ stay curious, stay secure 🌸 · last edited 11/13/2026</sub></p>
